@@ -1,0 +1,92 @@
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 18px;
+	margin-left: 330px;
+	margin-right: 30px;
+	border-radius: 5px;
+	width: auto;
+	min-height: 750px;
+	height: auto;
+	background-color: #fff;
+}
+.header {
+	height: 230px;
+	text-align: center;
+}
+.header h2 {
+	margin-top: 52px;
+	font-weight: bold;
+	font-size: 30px;
+}
+.header__text {
+	margin-top: 26px;
+	width: 487px;
+	height: 36px;
+	font-size: 14px;
+	line-height: 18px;
+}
+.products {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.loan-variant:first-child {
+	background: #e9f0f9;
+	color: #276ec3;
+	cursor: pointer;
+}
+.loan-variant {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	align-items: center;
+	justify-content: flex-start;
+	width: 345px;
+	height: 174px;
+	padding-top: 19px;
+	font-weight: bold;
+	font-size: 20px;
+	background: rgba(241, 241, 241, 0.5);
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.loan-variant img {
+	position: absolute;
+	bottom: 24px;
+}
+.footer {
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+.footer__content {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 200px;
+	margin-bottom: 110px;
+}
+.footer-content__text {
+	width: 415px;
+}
+.footer-content__text p {
+	font-weight: bold;
+	font-size: 12px;
+}
+.footer-content__text li {
+	margin-top: 7px;
+	font-size: 12px;
+	line-height: 18px;
+}
+.footer-content__text li::before {
+	content: url("../../assets/img/dot.png");
+	/* padding-left: 10px; */
+	padding-right: 6px;
+}
+.footer__content img {
+	padding-right: 25px;
+}
